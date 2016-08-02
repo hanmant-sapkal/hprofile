@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e12d2bb6-dff4-4df3-90c9-8c31ab0f471d'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: welcomemessage
+theme: bootstrap
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:e12d2bb6-dff4-4df3-90c9-8c31ab0f471d'
+settings:
+  id: 'block_content:e12d2bb6-dff4-4df3-90c9-8c31ab0f471d'
+  label: 'Welcome message'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
